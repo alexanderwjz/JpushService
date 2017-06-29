@@ -22,6 +22,7 @@ public class JpushAsAliasImpl implements JpushAsAlias{
 	public void push(String usernameAsalias, String UserDefinedMessage) {
 		// TODO Auto-generated method stub
 		ReadPropertiesFile rp=new ReadPropertiesFile();
+		rp.readprotery();
 		// TODO Auto-generated method stub
 		System.out.println("usernameAsalias"+usernameAsalias +"UserDefinedMessage"+UserDefinedMessage);
 		ClientConfig clientConfig = ClientConfig.getInstance();

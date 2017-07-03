@@ -2,7 +2,6 @@ package com.alexander.utils;
 
 import java.io.FileInputStream;
 import java.io.IOException;
-import java.net.URISyntaxException;
 import java.net.URLDecoder;
 import java.util.Properties;
 
@@ -12,6 +11,9 @@ public class ReadPropertiesFile {
 	 * @email 1666796947@qq.com
 	 * @function 该类用于读取极光用户的APP_KEY, MASTER_SECRET
 	 **/
+	public ReadPropertiesFile(){
+		readprotery();
+	}
 	String APP_KEY;
 	String MASTER_SECRET;
 	//URL url=ClassLoader.getSystemClassLoader().getResource("ReadPropertiesFile.java");
